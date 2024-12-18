@@ -37,16 +37,17 @@
 // mapLetters(str);
 
 //---------------------------------------------------------------------------------------
+// Function Declaration:
 // function hello(a,b){
 //     console.log("hello")
 // }
 //functions
-//normal function
+// function Expression:
 // let hello = (a,b)=>{
 //     console.log("hello",a+b)
 // }
 // let x=10
-// arrow function
+// arrow function:
 // let add = (a,b)=>{
 //     console.log(a+b)
 // }
@@ -111,20 +112,23 @@
 // const firstName = "Jonas"//
 // calcAge(1991);
 // ---------------------------------------------------------------------------------
+/////////////////////////////////////
 // sorting:
 
-// example:
+// // example:
 // let arr = [3,72,111,91,4]
 // arr.sort()
 // console.log(arr)
-// example:
+
+// // example:
 // let arr = [3,72,111,91,4]
 // arr.sort((a,b)=>a-b)
 // console.log(arr)
-// example:
+
+// // example:
 // let arr = [3,72,111,91,4]
 // arr.sort((a,b)=>b-a)
-// console.log(arr)
+// console.log(arr);
 
 // example:
 // let items = [
@@ -134,6 +138,7 @@
 // ]
 // items.sort((a,b)=>a.price-b.price)
 // console.log(items)
+
 // example:
 // let employees = [
 //   { name: "Hannah", department: "Finance" },
@@ -159,6 +164,7 @@
 //   }
 // });
 // console.log(employees);
+
 // example:
 // let books = [
 //     {title:"Book B",author:{firstName:"John",lastName:"Doe"}},
@@ -186,20 +192,24 @@
 // })
 // console.log(books)
 // ---------------------------------------------------------------------------------
-// map() method
-// let arr = [2,6,3,9,5]
-// let x = arr.map(square)
-// function square(v,i){
-//     console.log(v,i)
-//     return v*v
+///////////////////////////
+// // map() method
+// let arr = [2, 6, 3, 9, 5];
+// let result = arr.map(square);
+
+// function square(v, i) {
+//   console.log(v, i);
+//   return v * v;
 // }
-// console.log(x)
+// console.log(result);
+/////////////////////////////
 // forEach() method
 // let arr = [2,5,3,8,6]
 // arr.forEach(fun)
 // function fun(v,i){
 // console.log(v,i)
 // }
+///////////////////////////
 // // filter() method
 // let arr = [2, 5, 8, 3, 9, 4];
 // let x = arr.filter(fun);
@@ -208,6 +218,7 @@
 //   return v % 2 == 0;
 // }
 // console.log(x);
+/////////////////////////
 // reduce() method
 // let arr = [2,5,3,7,1]
 // suppose we want to calculate sum of the array
@@ -216,20 +227,20 @@
 // return sum+value
 // }
 // console.log(x)
-///////////////////////
+/////////////////////////////
 // // arr.reduce(p1,p2)
-// // reduce method will have two parameters,first parameter is 
-// // the function (eg:fun in above case) and second param is the 
+// // reduce method will have two parameters,first parameter is
+// // the function (eg:fun in above case) and second param is the
 // // default value, so we will write it as below
 // let arr = [2,5,3,7,1]
 // let x = arr.reduce((sum,value,index)=>{return sum+value},0)
 // console.log(x)
 // if we don't pass the second parameter then its default will
-//  be the first element of the array i.e "2" in this case and loop will start 
-// from the second index i.e. value will be 5 and index will be 2. If we pass the second 
-// parameter then sum will be that value , value will be 2,index will be 0, means loop will 
+//  be the first element of the array i.e "2" in this case and loop will start
+// from the second index i.e. value will be 5 and index will be 2. If we pass the second
+// parameter then sum will be that value , value will be 2,index will be 0, means loop will
 // run from first index
 // let arr = [2,5,3,7,1]
 // let x = arr.reduce((sum,value,index)=>{return sum+value})
 // console.log(x)
-
+//////////////////////////////////////////////////
